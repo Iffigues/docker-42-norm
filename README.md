@@ -8,3 +8,5 @@ docker build -t norm .
 docker run -it  --mount src=<yourdir>,target=<docker_dir>,type=bind norm
 cd <docker_dir>
 check norm where u want
+
+contain valgrind for look leaks
